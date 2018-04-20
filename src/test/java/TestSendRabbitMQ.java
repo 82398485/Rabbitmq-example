@@ -18,17 +18,15 @@ public class TestSendRabbitMQ {
 
     @Test
     public void testSendRabbit(){
-
-//        for(int j=0;j<100;j++) {
-//            new Thread() {
-//                public void run() {
+        for(int j=0;j<100;j++) {
+            new Thread() {
+                public void run() {
                     for (int i = 0; i < 100000; i++) {
                         helloSender.send();
                     }
-//                }
-//            }.run();
-//        }
-
+                }
+            }.run();
+        }
     }
 
 }
