@@ -1,4 +1,4 @@
-package com.zlst.receive;
+package com.songcj.receive;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;

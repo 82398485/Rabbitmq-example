@@ -1,4 +1,4 @@
-package com.zlst.send;
+package com.songcj.send;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
